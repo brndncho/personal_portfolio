@@ -3,7 +3,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
 
     const frontendSkills = ["React", "Tailwind CSS", "HTML", "CSS", "JavaScript"];
-    const backendSkills = ["Node.js", "Python", "MongoDB", "GraphQL", "REST APIs"];
+    const backendSkills = ["Node.js", "C" ,"Python", "SQL", "REST APIs"];
 
 
     return (
@@ -52,7 +52,22 @@ export const About = () => {
                         </div>    
                     </div>
 
+                    <div className="rounded-xl mt-8 p-8 border-white/10 border hover:-translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4">
+                            🎓 Education
+                        </h3>
 
+                        <ul className="list-disc list-inside text-grey-300 space-y-2">
+                                <li>
+                                    <strong>B.Sc. in Computing Science</strong> - Simon Fraser University (2021-Present)
+                                </li>
+                                <li>
+                                    Relevant Coursework: Data Structures, Databases, Data Science
+                                </li>
+                        </ul>
+                    </div>
+
+                    {/* uncomment when work experience gained
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                         <div className="p-6 rounded-xl border border-white/10 border hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4">
@@ -68,6 +83,7 @@ export const About = () => {
                             </ul>
                         </div>
 
+                             
                         <div className="p-6 rounded-xl border border-white/10 border hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4">
                                 💼 Work Experience
@@ -79,7 +95,10 @@ export const About = () => {
                                 </div>
                             </div>
                         </div>
+
                     </div>
+                    */}
+
                 </div>
             </RevealOnScroll>    
         </section>

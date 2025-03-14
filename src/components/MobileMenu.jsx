@@ -11,6 +11,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
                             ? "h-screen opacity-100 pointer-events-auto"
                             : "h-0 opacity-0 pointer-events-none"
                         }
+                        overflow-y-auto
                     `}
         >
             <button
